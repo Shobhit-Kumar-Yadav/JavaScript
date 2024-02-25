@@ -85,3 +85,19 @@ let sum1 = arr4.reduce((res, curr1) =>{
 
 console.log(sum1)
 
+/*.........................................................................................................................*/
+
+let num2 = prompt("enter a number : ");
+let arr5 =[];
+
+for( let i=1; i<= n; i++){
+    arr5[i-1] = i;
+}
+
+console.log(arr5);
+
+let sum2 = arr5.reduce((res, curr1) =>{
+    return res + curr1;
+})
+
+console.log( "sum: "sum2)
